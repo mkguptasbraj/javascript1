@@ -37,7 +37,14 @@ i++;
 let marvel_heroes=["thor","spiderman",'ironman'];
 let dc_heroes=['superman','batman'];
 let hero = marvel_heroes.concat(dc_heroes);
-console.log(hero);console.log(hero.slice(3,5)); */
-
-
-
+console.log(hero);console.log(hero.slice(3,5)); 
+*/
+let companies=["bloomberg","Microsoft","Uber","Google","IBM","Netflix"];
+console.log(companies);
+companies.shift();
+// first element
+console.log(companies);
+companies.splice(1,1,"ola");
+console.log(companies);
+companies.push("Amazon");
+console.log(companies);
